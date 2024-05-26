@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/imperial/Imagens/download\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+#coll{
+    background-color: red;
+}
+.container {
+    background-color: #000000e5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 6%;
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu button {
+    border-radius: 4px;
+    margin: 20px 5px;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu button:hover {
+    background-color: #ffffff;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#form-container{
+    font-weight: bold;
+    color: #ffffff;
+    margin: 20px 20px;
+    padding: 0 20px;
+    background-color: rgba(207, 207, 207, 0.37);
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    width: 92%;
+}
+#product-list {
+    font-weight: bold;
+    color: #ffffff;
+    float: left;
+    margin: 20px 20px;
+    padding: 20px;
+    background-color: rgba(207, 207, 207, 0.37);
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    width: 45%;
+}
+
+#form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-container form input,
+#form-container form button,
+#form-container form textarea {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+#form-container form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#form-container form button:hover {
+    background-color: #218838;
+}
+
+#product-details{
+    color: white;
+    float: left;
+    height: 400px;
+    width: 40%;
+    margin: 20px 10px;
+    padding: 20px;
+    background-color: rgba(207, 207, 207, 0.37);
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
