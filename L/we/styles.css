@@ -1,10 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-image: url(/L/Imagens/download\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
 }
-
+#coll{
+    background-color: #00000063;
+}
 .container {
     width: 80%;
     margin: auto;
@@ -13,7 +17,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
 }
 
 .menu {
@@ -22,27 +26,42 @@ h1 {
 }
 
 .menu button {
-    margin: 5px;
+    border-radius: 4px;
+    margin: 20px 5px;
     padding: 10px 10px;
     background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .menu button:hover {
-    background-color: #0056b3;
+    background-color: #ffffff;
+    color: #007bff;
+    font-weight: bold;
 }
 
-#form-container,
+#form-container{
+    font-weight: bold;
+    color: #ffffff;
+    margin: 20px 20px;
+    padding: 0 20px;
+    background-color: rgba(207, 207, 207, 0.37);
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    width: 92%;
+}
 #product-list {
+    font-weight: bold;
+    color: #ffffff;
     float: left;
     margin: 20px 20px;
     padding: 20px;
-    background-color: rgb(189, 183, 183);
-    border: 1px solid #530202;
+    background-color: rgba(207, 207, 207, 0.37);
+    border: 1px solid #ebebeb;
     border-radius: 5px;
-    width: 400px;
+    width: 45%;
 }
 
 #form-container form {
@@ -53,8 +72,8 @@ h1 {
 #form-container form input,
 #form-container form button,
 #form-container form textarea {
-    margin: 10px 0;
-    padding: 10px;
+    margin: 5px 0;
+    padding: 5px;
 }
 
 #form-container form button {
@@ -66,4 +85,16 @@ h1 {
 
 #form-container form button:hover {
     background-color: #218838;
+}
+
+#product-details{
+    color: white;
+    float: left;
+    height: 400px;
+    width: 40%;
+    margin: 20px 10px;
+    padding: 20px;
+    background-color: rgba(207, 207, 207, 0.37);
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
 }
