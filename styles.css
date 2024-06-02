@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 100px 0;
     padding: 0;
-    background-image: url(/imperial/Imagens/download\ \(2\).jpg);
+    background-image: url(./Imagens/Capa-fundo.webp);
     background-repeat: no-repeat;
     background-size: cover ;
     background-attachment: fixed;
@@ -63,7 +63,7 @@ h1 {
     float: left;
     margin: 20px 20px;
     padding: 20px;
-    background-color: rgba(207, 207, 207, 0.37);
+    background-color: rgba(207, 207, 207, 0.63);
     border: 1px solid #ebebeb;
     border-radius: 5px;
     width: 45%;
@@ -98,8 +98,7 @@ h1 {
     height: 400px;
     width: 40%;
     margin: 20px 10px;
-    padding: 20px;
-    background-color: rgba(207, 207, 207, 0.37);
+    padding: 20px;background-color: rgba(207, 207, 207, 0.63);
     border: 1px solid #ebebeb;
     border-radius: 5px;
 }
